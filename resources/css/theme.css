@@ -1,0 +1,10 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+@import 'breadcrumbs.css';
+@import 'button.css';
+@import 'main.css';
+@import 'sidebar.css';
+@import 'table.css';
+@import 'topbar.css';
+@import 'widget.css';
+
+@config 'tailwind.config.js';

@@ -1,0 +1,24 @@
+.fi-ta-table {
+    /* @apply bg-gradient-to-tr from-sky-50 via-sky-100 to-sky-200 divide-sky-200; */
+    @apply bg-[#FCD5CE];
+}
+
+.fi-ta-table:is(.dark *) {
+    @apply bg-gradient-to-tl from-slate-950 via-slate-800 to-slate-700 divide-slate-700;
+}
+
+.fi-ta-table thead is {
+    @apply bg-gradient-to-tr from-sky-50 via-sky-100 to-sky-200 divide-sky-200 dark:bg-lime-700;
+}
+
+.fi-ta-table thead tr {
+    @apply uppercase
+}
+
+.fi-pagination {
+    @apply bg-gradient-to-tr from-sky-50 via-sky-100 to-sky-200 divide-sky-200;
+}
+
+.fi-pagination:is(.dark *) {
+    @apply bg-gradient-to-tl from-slate-950 via-slate-800 to-slate-700 divide-slate-700;
+}

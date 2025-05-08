@@ -1,0 +1,29 @@
+{
+    "name": "boyprakasa/filament-prk-theme",
+    "description": "A Filament Theme based on Prakasa's theme",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Boyprakasa\\FilamentPrkTheme\\": "src/"
+        }
+    },
+    "require": {
+        "filament/filament": "^3.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Boyprakasa\\FilamentPrkTheme\\FilamentPrkThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Boy Prakasa",
+            "email": "boyprakasa@gmail.com"
+        }
+    ]
+}

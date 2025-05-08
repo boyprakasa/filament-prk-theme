@@ -1,0 +1,11 @@
+.fi-tabs-item-active {
+    @apply bg-primary-100;
+}
+
+.fi-tabs-item-active span {
+    @apply !text-secondary-900;
+}
+
+.fi-tabs-item-active span {
+    @apply dark:text-red-100 !important;
+}

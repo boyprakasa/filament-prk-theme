@@ -1,0 +1,27 @@
+.fi-sidebar-header {
+    @apply border-b border-[#d8dee9] dark:border-lime-500;
+}
+
+.fi-icon-btn-icon {
+    /* @apply dark:text-lime-500; */
+}
+
+.fi-topbar nav {
+    @apply border-b border-[#d8dee9] dark:border-lime-500;
+}
+.fi-topbar nav, .fi-sidebar-header {
+    @apply bg-[#f5f8fa] dark:bg-[#1f0000];
+}
+
+.fi-topbar-item-active a,
+.fi-topbar-item-active button {
+    @apply bg-secondary-500 hover:bg-secondary-400 dark:bg-primary-500 dark:text-secondary-500 dark:hover:bg-primary-400;
+}
+
+.fi-topbar-item-active svg {
+    @apply dark:text-secondary-500;
+}
+
+.fi-topbar .fi-tenant-menu {
+    @apply lg:!hidden;
+}
