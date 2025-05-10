@@ -1,34 +1,15 @@
-.fi-btn-color-primary {
-    /*  */
+.fi-btn {
+    @apply uppercase text-black rounded-lg border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
 }
 
-.fi-btn-color-secondary {
-    /*  */
+.fi-btn:is(.dark *) {
+    @apply bg-black hover:bg-gray-800 text-white drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5];
 }
 
-.fi-header-heading,
-.fi-ta-header-cell-label,
-.fi-btn-color-red span {
-    @apply text-gray-600 dark:text-lime-400;
+.fi-btn svg {
+    @apply text-black dark:text-white;
 }
 
-.fi-btn:not(.fi-btn-group .fi-btn) {
-    /* @apply rounded-full; */
-    @apply rounded-md;
+.fi-btn-label {
+    @apply font-mono;
 }
-
-.fi-btn-group > .fi-btn:first-of-type {
-    @apply rounded-s-full;
-}
-
-.fi-btn-group > .fi-btn:last-of-type {
-    @apply rounded-e-full;
-}
-
-.fi-btn-group {
-    @apply rounded-full;
-}
-
-/* .fi-btn.fi-color-primary .fi-btn-label {
-    @apply text-primary-950;
-} */

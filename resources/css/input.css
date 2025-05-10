@@ -1,0 +1,12 @@
+.fi-input-wrp {
+    @apply border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+}
+
+.fi-input-wrp:is(.dark *) {
+    @apply bg-black text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5];
+}
+
+.fi-input-wrp-input,
+.fi-input-wrp-label {
+    @apply font-mono;
+}

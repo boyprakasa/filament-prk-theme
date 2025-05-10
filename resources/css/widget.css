@@ -1,31 +1,20 @@
-.fi-global-search-field .fi-input-wrp,
-.fi-ta-search-field .fi-input-wrp {
-    @apply rounded-lg bg-[#f5f8fa] dark:bg-lime-500;
-}
-
-.fi-global-search-field .fi-input-wrp {
-    @apply ring-2 ring-white dark:ring-lime-400;
-}
-
-.fi-global-search-field .fi-input-wrp .fi-input-wrp-prefix {
-    @apply bg-white dark:bg-lime-400 rounded-s-lg ps-2 mr-2;
-}
-
-.fi-wi-widget .fi-section,
 .fi-wi-stats-overview-stat {
-    @apply dark:ring-red-700 dark:hover:text-white/70 dark:hover:ring-red-500;
+    @apply rounded-lg border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
 }
 
-.fi-section,
-.fi-wi-stats-overview-stat,
-.fi-ta-ctn,
-.fi-tenant-menu,
-.fi-dropdown-panel
-{
-    @apply border border-gray-300 dark:bg-gray-900 dark:[background:linear-gradient(#212529,#343a40)_padding-box,linear-gradient(to_right,#343a40,#212529)_border-box;] dark:shadow-md dark:shadow-lime-800;
+.fi-wi-stats-overview-stat:is(.dark *) {
+    @apply text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5];
 }
 
-.fi-section,
-.fi-wi-stats-overview-stat {
-    @apply shadow-md rounded-2xl border-none ring-0 dark:ring-1;
+.fi-wi-stats-overview-stat-label,
+.fi-wi-stats-overview-stat-value {
+    @apply font-mono;
+}
+
+.fi-wi-stats-overview-stat-value {
+    @apply italic uppercase;
+}
+
+.fi-wi-stats-overview-stat-chart {
+    @apply rounded-lg;
 }
