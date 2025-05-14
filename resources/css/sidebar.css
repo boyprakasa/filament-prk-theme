@@ -1,3 +1,21 @@
+.fi-sidebar-item-button {
+    @apply hover:ring-4 hover:ring-primary-200;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button {
+    @apply rounded-md ring-2 ring-primary-300;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button svg {
+    @apply stroke-primary-500 fill-primary-400;
+}
+
+.fi-sidebar-item-label {
+    @apply font-mono;
+}
+
+/* === dark mode */
+
 .fi-sidebar-item .fi-sidebar-item-button:is(.dark *) {
     @apply rounded-md hover:bg-gray-300;
 }
