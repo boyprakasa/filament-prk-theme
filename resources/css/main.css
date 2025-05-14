@@ -1,5 +1,5 @@
 .fi-body{
-    @apply bg-[#fff] dark:bg-[#1f0000];
+    @apply bg-[#fff] dark:bg-[#050505];
 }
 
 .fi-simple-main {
