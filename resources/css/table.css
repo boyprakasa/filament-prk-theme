@@ -1,23 +1,15 @@
 .fi-ta-ctn {
-    @apply border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+    @apply border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
 }
 
 .fi-ta-ctn:is(.dark *) {
-    @apply bg-black text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5]
+    @apply bg-black border-[#e5e5e5] text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)]
 }
 
 .fi-pagination-items {
-    @apply border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+    @apply border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
 }
 
 .fi-pagination-items:is(.dark *) {
-    @apply bg-black text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5]
-}
-
-.fi-tabs {
-    @apply font-mono border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
-}
-
-.fi-tabs:is(.dark *) {
-    @apply bg-black text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5]
+    @apply bg-black border-[#e5e5e5] text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)]
 }

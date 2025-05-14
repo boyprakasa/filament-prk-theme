@@ -1,9 +1,9 @@
 .fi-wi-stats-overview-stat {
-    @apply rounded-lg border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+    @apply rounded-lg border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
 }
 
 .fi-wi-stats-overview-stat:is(.dark *) {
-    @apply text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5];
+    @apply text-black border-[#e5e5e5] drop-shadow-[5px_5px_0px_rgba(229,229,229,1)];
 }
 
 .fi-wi-stats-overview-stat-label,

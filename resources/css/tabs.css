@@ -1,3 +1,11 @@
+.fi-tabs {
+    @apply font-mono border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
+}
+
+.fi-tabs:is(.dark *) {
+    @apply bg-black border-[#e5e5e5] text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)];
+}
+
 .fi-tabs-item-active {
     @apply bg-primary-100;
 }

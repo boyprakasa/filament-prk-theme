@@ -1,5 +1,5 @@
 .fi-input-wrp {
-    @apply border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+    @apply border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
 }
 
 .fi-input-wrp:is(.dark *) {
