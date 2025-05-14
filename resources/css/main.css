@@ -3,7 +3,7 @@
 }
 
 .fi-simple-main {
-    @apply bg-[#fefae0] border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)] dark:bg-[#1f0000];
+    @apply bg-[#fefae0] border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)] dark:bg-[#050505];
 }
 
 .fi-simple-page section {
@@ -11,9 +11,9 @@
 }
 
 .fi-section {
-    @apply rounded-lg font-mono border border-black drop-shadow-[5px_5px_0px_rgba(0,48,73,1)];
+    @apply rounded-lg font-mono border border-black drop-shadow-[10px_10px_0px_rgba(0,48,73,1)] transition duration-150 ease-in-out hover:drop-shadow-[2px_2px_0px_rgba(0,48,73,1)];
 }
 
 .fi-section:is(.dark *) {
-    @apply bg-black text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)] border-[#e5e5e5];
+    @apply bg-black border-[#e5e5e5] text-black drop-shadow-[5px_5px_0px_rgba(229,229,229,1)];
 }
