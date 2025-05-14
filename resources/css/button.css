@@ -13,3 +13,7 @@
 .fi-btn-label {
     @apply font-mono;
 }
+
+.fi-badge {
+    @apply rounded-xl font-mono bg-primary-100;
+}
